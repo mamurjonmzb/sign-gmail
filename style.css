@@ -1,0 +1,160 @@
+body {
+margin: 0;
+padding: 16px;
+box-sizing: border-box;
+font-family: Roboto;
+font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+margin: 0;
+padding: 0;
+}
+
+.container {
+max-width: 1440px;
+width: 100%;
+height: 900px;
+margin: 0 auto;
+display: flex;
+border: 1px solid;
+}
+
+.container-right {
+margin: 232px 193px;
+}
+
+.container-right__welcome {
+color: var(--800, #2d3748);
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 2px;
+}
+
+.container-right__title {
+color: var(--900, #1a202c);
+font-size: 30px;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 24px;
+}
+
+form {
+display: block;
+margin-bottom: 28px;
+}
+
+legend {
+color: var(--700, #4a5568);
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 11px;
+}
+
+input {
+width: 350px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #e8e8e8;
+margin-bottom: 11px;
+}
+
+.container-right__circle {
+display: flex;
+align-items: center;
+}
+
+.circle__text {
+color: var(--800, #2d3748);
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+margin-right: 119px;
+}
+
+.circle__subtext {
+color: var(--800, #2c5282);
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+}
+
+.circle {
+fill: var(--100, #f7fafc);
+stroke-width: 1px;
+stroke: #e8e8e8;
+margin-right: 11px;
+}
+
+.button {
+margin-top: 27px;
+}
+
+.btn__login {
+width: 347px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #04c35c;
+color: #fff;
+font-size: 16px;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 15px;
+border: none;
+padding: 15px 132px ;
+border: 1px green;
+transition: all ease 0.6s;
+}
+
+.btn__login:hover{
+background-color: #d8f9d6;
+color: green; 
+}
+
+.btn__sign {
+width: 347px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 5px;
+background: var(--800, #2d3748);
+color: #fff;
+font-size: 16px;
+font-weight: 700;
+line-height: normal;
+border: none;
+margin-bottom: 162px;
+transition: all ease 0.6s;
+}
+
+.btn__sign:hover{
+background-color: #e8e8e8;
+color: green;
+}
+
+.google_btn{
+padding-right: 11px;
+}
+
+.end_div{
+color: #616161;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+}
+
+.end__bluediv{
+color: var(--700, #2B6CB0);
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+}
